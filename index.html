@@ -9,200 +9,134 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/imgonline-com-ua-favicon-Fq8RB0gIXq8j.ico" type="image/x-icon">
 	<title>Lesson 3</title>
-	<!-- Варіант №1 (тег style) -->
-	<!-- 
-		<style>
-			
-		</style>
-		 -->
+
+
+	<!-- тег <style> -->
+	<style>
+		p {
+			color: rgb(49, 3, 134);
+			background-color: lightblue;
+		}
+
+		body {
+			margin-left: 20px;
+		}
+
+		li {
+			color: rgb(78, 95, 90);
+			font-weight: bold;
+		}
+	</style>
 </head>
 
-<body>
-	<!-- Анатомія вкладенності -->
-	<!-- Батьківський елемент для тегів P та SPAN -->
-	<div>
-		<!-- Дочірній елемент першого рівня/безпосередній відносно тегу DIV -->
-		<p>
-			<!-- 
-					Дочірній елемент першого рівня/безпосередній для тегу P 
-					та елемент другого рівня (вкладеності) відносно тегу DIV
-				 -->
-			<span></span>
-		</p>
-	</div>
-
-	<!-- Шлях до файлів -->
-	<!-- <img src="img/home/01.png" alt=""> -->
-	<!-- Вкладеність -->
-	<!-- 
-		<h1>Заголовок</h1>
-		<div class="text">
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil nulla mollitia consequuntur tenetur maiores quasi natus voluptate dolorem esse facilis fugiat eveniet, eaque illo at dolor, culpa perspiciatis ipsum?
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil nulla mollitia consequuntur tenetur maiores quasi natus voluptate dolorem esse facilis fugiat eveniet, eaque illo at dolor, culpa perspiciatis ipsum?
-			</p>
-			<p>
-				Lorem ipsum dolor sit am
-				et consectetur adipisicing elit. Quo nihil nulla mollitia consequuntur tenetur maiores quasi natus voluptate dolorem esse facilis fugiat eveniet, eaque illo at dolor, culpa perspiciatis ipsum?
-			</p>
+<body style="background-color: rgb(236, 236, 227)">
+	<header class="header">
+		<div class="conteiner">
+			<a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%9C%D0%BE%D1%94_%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F" style="color: #000ecdcc; font-weight: bold; font-size: 15px" target="_blank" class="link">ОБГОВОРЕННЯ</a>
+			<span>&nbsp;&nbsp;&nbsp;</span>
+			<a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%9C%D1%96%D0%B9_%D0%B2%D0%BD%D0%B5%D1%81%D0%BE%D0%BA" style="color: #000ecdcc; font-weight: bold; font-size:15px" target="_blank" class="link">ВНЕСОК</a>
+			<span>&nbsp;&nbsp;&nbsp;</span>
+			<a href="https://uk.wikipedia.org/w/index.php?title=%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%A1%D1%82%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%B8_%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81&returnto=%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B0+%D0%B2%D1%96%D0%B9%D0%BD%D0%B0" style="color: #000ecdcc; font-weight: bold; font-size: 15px" target="_blank" class="link">СТВОРИТИ ОБЛІКОВИЙ ЗАПИС</a>
+			<span>&nbsp;&nbsp;&nbsp;</span>
+			<a href="https://uk.wikipedia.org/w/index.php?title=%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%92%D1%85%D1%96%D0%B4&returnto=%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B0+%D0%B2%D1%96%D0%B9%D0%BD%D0%B0" style="color: #000ecdcc; font-weight: bold; font-size: 15px" target="_blank" class="link">УВІЙТИ</a>
 		</div>
-		<ul>
-			<li>Пункт</li>
-			<li>Пункт</li>
-			<li>Пункт</li>
-			<li>Пункт</li>
-			<li>Пункт</li>
-		</ul>
-		 -->
-	<!-- Виняток -->
-	<!-- У рядковий тег A ми МОЖЕМО вкладати конструкції, 
-			у тому числі з використанням блочних, будівельних тегів  -->
-	<!-- 
-		<a href="contacts.html">
-			<div>
-				<img src="" alt="">
-			</div>
-			<div>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur asperiores, laudantium nam vel, praesentium ut id minima autem architecto numquam similique suscipit consequatur quas harum libero? Error labore veritatis tempore.
-				</p>
-			</div>
-		</a>
-		 -->
+	</header>
+	<h1> <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B0_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0#%D0%A0%D1%96%D0%B7%D0%BD%D0%BE%D0%B2%D0%B8%D0%B4%D0%B8" target="_blank" class="link">&copy;Інформаційна війна</a></h1>
+	<p> Матеріал з Вікіпедії — вільної енциклопедії.</p>
+	<P>Не плутати з <a href="https://uk.wikipedia.org/wiki/%D0%9A%D1%96%D0%B1%D0%B5%D1%80%D0%B2%D1%96%D0%B9%D0%BD%D0%B0" target="_blank" class="link">кібервійною</a> — війною за домінування в кіберпросторі.</p>
+	<P>Не плутати з <a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0" target="_blank" class="link">психологічною війною</a> — війною за психологічне домінування.</p>
+	<P>Не плутати з <a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%95%D0%91" target="_blank" class="link">радіоелектронною боротьбою</a> — боротьбою за домінування в радіопросторі.</p>
+	<P>Не плутати з <a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B0_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0" target="_blank" class="link">мережевою війною</a> — війною з використанням мережевих технологій (не тільки Інтернет — йдеться про технології, властиві нетократії).</p>
 
-	<!-- Атрибути -->
-	<!-- class="ім'я ім'я". 
-			В значенні вказуємо довільне ім'я класу(сів).
-			Однакових класів може бути скільки завгодно
-		-->
-	<!-- 
-			Правила написання імені класу: 
-			0) ім'я довільне, але логічне - описує цей об'єкт
-			1) тільки латиниця (eng)
-			2) тільки маленьки (прописні) літери
-			3) пробіли у імені класу (коли в імені більше одного слова) замінюємо на "-" (дефіс)
-		-->
-	<!-- 
-		<div class="text">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
-		</div>
-		<div class="text">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
-		</div>
-		<div class="our-advantages">
-
-			
-		</div>
-		 -->
-
-	<!-- Атрибут class може мати безліч значень розділених пробілом -->
-	<!-- 
-		<div class="text our-advantages">
-
-		</div>
-		 -->
-
-	<!-- Атрибут ID -->
-	<!-- 
-			ЗНАЧЕННЯ ID МАЄ БУТИ УНІКАЛЬНИМ НА СТОРІНЦІ !!!!!!!!!
-		 -->
-	<!-- 
-			Правила написання імені ID: 
-			0) ім'я довільне, але логічне - описує цей об'єкт
-			1) тільки латиниця (eng)
-			2) тільки маленьки (прописні) літери
-			3) пробіли у імені класу (коли в імені більше одного слова) замінюємо на "-" (дефіс)
-		-->
-	<!-- 
-		<div id="block"></div>
-		 -->
-	<!-- Може бути, але не варто -->
-	<!-- <div title="" class="block"></div> -->
-
-	<!-- Додаткові атрибути -->
-	<!-- title - довільний текст підказки, яка з'являється при наведенні на об'єкт -->
-	<!-- alt - довільний текст (опис) зображення -->
-	<!-- 
-		<a href="" title="Я підказка" target="_blank">
-			Я посилання
-		</a>
-		<img title="" src="" alt="Опис зображення">
- 		-->
-	<!-- Взаємодія HREF + ID -->
-	<!-- 
-		<div id="top" class="text">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
-		</div>
-		<a href="#top" class="link">Наверх ^</a>
-		 -->
-
-	<!-- Введення в CSS -->
-	<h1>Я заголовок</h1>
-	<h2>Підрозділи:</h2>
-	<ul>
-		<li>
-			<a href="">Підрозділ №1</a>
-		</li>
-		<li>
-			<a href="">Підрозділ №2</a>
-		</li>
-		<li>
-			<a href="">Підрозділ №3</a>
-		</li>
-	</ul>
+	<h3 style="font-size: 20px; color: rgb(4, 48, 12); font-weight: bold">Інформаці́йна війна</h3>
 	<div class="text">
-		<!--Варіант №2 (рядковий метод) (Атрибут style) -->
-		<p>
-			<!-- style="пишемо стилі" -->
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
-		</p>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
-		</p>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
-		</p>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
-		</p>
-	</div>
-	<div class="lesson">
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
-		</p>
-	</div>
-</body>
+		<!-- тег <mark> також можна змінити колір маркеру. В програмуванні - МОЖНА ВСЕ!!! :))-->
+		<mark style="background-color: green">(англ. information warfare)</mark> — ви́кладення інформації у спосіб, який формує у суспільстві чи групі людей потрібну точку зору громадську думку, <a href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BE%D0%B2%D0%B8%D0%B2%D1%96%D0%B4" target="_blank" class="link"> хід взаємодоповнюючих логічних думок</a>
+		<p class="section">, вичерпну систему поглядів щодо окремих питань на користь організатора інформаційної пропаганди. Як наслідок, відбувається усвідомлення окремих фактів чи подій у <span>потрібному для маніпулятора світлі</span>, формування потрібного світогляду чи життєвої позиції стосовно питань, у яких раніше були протиріччя чи нерозуміння. У випадку відсутності протиріч і наявної сталої системи поглядів, завданням інформаційної війни є породження сумнівів, насівання протиріч та домислів в існуючі переконання. Розвиток людини влаштований так, що людина завжди шукає відповіді на турбуючі її питання, спірні питання, що є невід'ємною рисою безперервних процесів пізнання.
+		<p>У молодому віці, у мало освічених прошарках суспільства, ввиду м'якої несформованої свідомості та прогалин у знаннях, завданням інформаційної війни є їх закриття потрібною, надзвичайно легкою для засвоєння та логічною на перший погляд інформацією. Відповідно, із зростанням обізнаності зменшується вразливість, у такому випадку, інформаційна війна потребує більш складного підходу для породження сумнівів, використовує численні техніки перекручування інформації, наприклад, подання неправди з логічними доказами правдивості цих фактів, фальсифікованими дослідженнями та доказами у які жертва гіпотетично має повірити і прийняти їх як свої переконання. <br></p>
 
+		Інформаційна війна можлива через природну потребу навіть дорослого організму у новій інформації (для закриття прогалин у знаннях, спростуванні чи підтвердженні породжених сумнівів, перевірці та детальному вивченні нових суперечливих фактів), тому, інформаційна вразливість притаманна всім суспільним прошаркам, освіченість суспільства лише визначає, наскільки вичерпною та розгорнутою має бути подана альтернативна інформація щоб здаватись правдивою. Для мінімізації критичного ставлення до нових фактів обов'язковою умовою для початку інформаційної війни є встановлення довіри до альтернативного джерела інформації, подача його як авторитетного, науково підтвердженого тощо. <br>
+		Антидотом у інформаційній війні є комплекс заходів під спільною узагальнюючою назвою інформаційна гігієна, який розкриває механізми боротьби з інформаційною війною, пояснює механізми інформаційної війни, розробляє протидію — від створення швидкого легкозасвоюваного «інформаційного цукру» на випередження, де простими словами пояснюється суть явища, до пояснення складних механізмів перевірки джерел інформації, виявлення фальшивих новин, загальноосвітня діяльність з акцентуванням уваги на можливе перекручування окремих фактів супротивником.
+	</div>
+	<ol>
+		<li id="content" class="content"> <br> Зміст</li>
+		<li> <a href="#section0" title="Перейти до розділу сорінки">1 Різновиди</a></li>
+		<li> <a href="#section2" title="Перейти до розділу сорінки">2 Виникнення терміну</a> </li>
+		<li> <a href="#section3" title="Перейти до розділу сорінки">3 Стратегічне інформаційне протиборство </a></li>
+		<li> <a href="#section4" title="Перейти до розділу сорінки">4 Історія розвитку</a></li>
+		<li> <a href="#section4" title="Перейти до розділу сорінки">&nbsp;&nbsp;4.1 Покоління сучасних інформаційних війн</a></li>
+		<li>5 Форми сучасних інформаційних війн</li>
+		<li>6 Види</li>
+		<li>7 Методи і способи</li>
+		<li>8 Завдання і мета інформаційної війни</li>
+		<li>9 Інформаційна війна на сучасному етапі</li>
+		<li> &nbsp;&nbsp;9.1 Російсько-українська війна</li>
+		<li>10 Див. також</li>
+		<li>11 Література</li>
+		<li> &nbsp;&nbsp;11.1 На тему Російсько-української війни</li>
+		<li>12 Посилання</li>
+		<li>13 Примітки</li>
+	</ol>
+	<h3 id="section0"><a href="#content" title="Повернутись до змісту"><br><br>Різновиди</a></h3>
+	<div id="section" style="font-size: 15px; font-weight: bold;"><br> Інформаційна війна може включати в себе:
+		<ul>
+			<li>
+				<p class="newcolor">збір тактичної інформації,</p>
+			</li>
+			<li>гарантування безпеки власних інформаційних ресурсів,</li>
+			<li>поширення пропаганди або дезінформації, щоб деморалізувати військо та населення ворога,</li>
+			<li>підрив якості інформації супротивника і попередження можливості збору інформації супротивником.</li>
+		</ul>
+	</div>
+
+	<p class="paragraph"> <br> <br> Часто ІВ ведеться в комплексі з <span class="spann1">кібер-</span> та психологічною війнами з метою ширшого охоплення цілей, із залученням радіоелектронної боротьби та мережевих технологій. Основним засобом ведення ІВ є інформаційна зброя, ведеться шляхом інформаційних операцій.
+	</p>
+	<h3 id="section2"><a href="#content" title="Повернутись до змісту">Виникнення терміну</a></h3>
+	<div class="end" id="n1">
+		<div style="background-color: white">
+			Виходячи зі змісту та ролі інформації у сучасному світі, американський дослідник М. Маклуен виводить цікаву тезу: &laquo;Істинно тотальна війна — це війна за допомогою інформації&raquo;. Саме Маклуен першим проголосив, що в наш час економічні зв'язки і відносини все більше приймають форму обміну знаннями, а не обміну товарами. А засоби масової комунікації самі є новими «природними ресурсами», що збільшують багатства суспільства. Тобто боротьба за капітал, простори збуту та інше відходять на другий план, а головним постає доступ до інформаційних ресурсів, знань, що призводить до того, що війни ведуться вже більше в інформаційному просторі та за допомогою інформаційних видів озброєнь.<br>
+
+			<!--Cпробуємо зіштовхнути звернення до ID  та стиль інлайновий (переміг інлайновий бо він вложений в ID)-->
+
+			<p style="color: blue">
+				Вперше це поняття було закріплене в директиві Міністерства оборони США DOD S 3600.1 (від 21 грудня 1992 року), де воно вживалося у вузькому значенні і розглядалося як різновид радіоелектронної боротьби. В подальшому, в звіті американської корпорації &laquo;Ренд&raquo; MR-661-0SD &laquo;Strategic Information Warfare. А new face of War&raquo; (1996 p) вперше з'явився термін — &laquo;стратегічна інформаційна війна (інформаційне протиборство)&raquo;. Вона визначалася як війна з використанням державного глобального інформаційного простору й інфраструктури для проведення стратегічних військових операцій і зміцнення впливу на власний інформаційний ресурс. <br>
+				<span class="name paragraph">Різниця в перекладі слова &laquo; warfare &raquo;, що може бути перекладене і як війна, і як боротьба, спричинила паралельне вживання понять &laquo;інформаційна війна&raquo; та &laquo;інформаційна боротьба (протиборство)&raquo;. Друге поняття є широковживаним в Росії, де воно означає &laquo;суперництво соціальних систем в інформаційно-психологічній сфері з приводу впливу на ті чи інші сфери соціальних відносин і встановлення контролю над джерелами стратегічних ресурсів, в результаті якого одні учасники суперництва отримують переваги, необхідні їм для подальшого розвитку, а інші їх втрачають&raquo;.</span> <br>
+			</p>
+			<p class="name1">Тому вбачається доречним тотожне використання обох термінів, залежно від контексту конкретного офіційного документа або наукової публікації.
+				<span>
+					У звіті американської корпорації &laquo;Ренд&raquo; MR-661-0SD говориться про те, що зміни у суспільно-політичному житті ряду держав, викликані швидкими темпами інформатизації і комп'ютеризації суспільства призводять до перегляду геополітичних поглядів керівництва, до виникнення нових стратегічних інтересів (серед іншого і в інформаційній сфері), наслідком чого є зміна політики, що проводиться цими країнами. Автори підкреслюють, що, враховуючи визначення війни, дане Клаузевіцем («війна — це продовження політики іншими засобами»), глобальні протиріччя потребують нових засобів і методів їх вирішення — стратегічного інформаційного протиборства. <br>
+					Українське законодавство надавало наступне визначення: "інформаційна війна – форма протиборства між суб'єктами (державами, блоками, партіями тощо), що передбачає інформаційний вплив на населення з використанням засобів масової інформації, комп'ютерних мереж тощо з метою формування відповідної суспільної думки, підриву морального духу як усього суспільства, так і окремих його інституцій".
+				</span>
+			</p>
+		</div>
+	</div>
+	<h3 id="section3"><a href="#content" title="Повернутись до змісту">Стратегічне інформаційне протиборство</a></h3>
+	<p class="text paragraph">
+		Суть розуміння процесів ведення стратегічної інформаційної війни відображена в звітах РЕНД, підготовлених 1998 року: MR-963-OSD (The Day After … in the American Strategic Infrastructure) і MR-964-OSD (англ. Strategic Information Warfare Rising). На основі проведених досліджень про роль і місце інформаційної війни, а також аналізу сучасного стану в цій галузі була здійснена спроба прогнозу (з використанням методики &laquo;The Day After …&raquo;)o динаміки формування ситуації у світі. Розглядається ряд можливих шляхів розвитку, серед іншого здобуття США володарювання в області ІВ, створення елітарного клубу держав-володарів засобів ІВ та ряду інших. Було також обґрунтовано набір заходів, необхідних для здійснення найближчим часом задля того, щоб досягти бажаного результату в цій сфері в майбутньому.
+	</p>
+	<h3 id="section4"><a href="#content" title="Повернутись до змісту">Історія розвитку</a></h3>
+	<p class="text paragraph">
+		Відомо, що великомасштабні інформаційні технології, які дістали назву «інформаційних воєн», мають тисячолітню історію <br>
+		Вже у Біблії згадано Гедеона, який під час воєн регулярно вдавався до залякування ворога. Одного разу він так залякав супротивника, що той розгубився і вдарив по своїх військах. <br>
+		Прикладів інформаційного впливу на моральну, духовну стійкість супротивника можна знайти чимало і у древньому Римі, і в епоху феодалізму (боротьба з «єрессю», за «істинну віру» тощо), і в пізніші часи. <br>
+		Особливого значення інформаційні війни набули у ХХ столітті, коли газети, радіо, а потім і телебачення стали справді засобами масової інформації, а поширювана через них інформація — справді масовою. Уже у 20-х роках США вели радіопередачі на регіони своїх «традиційних інтересів» — країни Латинської Америки, Велика Британія — на свої колонії. Німеччина, яка домагалася перегляду умов Версальського миру — на німців Померанії і Верхньої Сілезії у Польщі, Судетів — у Чехії. Тоді ж, у 30-х роках, інформаційні війни перестають бути додатком до збройних і перетворюються у самостійне явище — як от: німецько-австрійська радіовійна 1933-34 рр. з приводу приєднання Австрії до рейху. Саме тоді з'явилося і набуло поширення поняття «інформаційний агресор».
+	</p>
+	<h4 id="section5"><a href="#content" title="Повернутись до змісту">4.1 Покоління сучасних інформаційних війн</a></h4>
+	<p class="text paragraph">
+		Ключовим поняттям, введеним у звіті MR-964-OSD, є класифікація стратегічної інформаційної війни на перше і друге покоління. <br>
+		Стратегічна інформаційна війна першого покоління включає основні методи інформаційної війни, що їх США реалізують у наш час на державному та військовому рівнях і від яких не мають наміру відмовлятися в доступному для огляду майбутньому[1]. <br>
+		Разом з тим введено поняття стратегічна ІВ другого покоління. Розвиток і ведення стратегічної інформаційної війни другого покоління, її скоординовані інформаційні операції у перспективі можуть привести до повної відмови від використання військової сили.
+	</p>
+	<ol>
+		<li>Пункт</li>
+		<li>Пункт</li>
+		<li>Пункт</li>
+		<li>Пункт</li>
+		<li>Пункт</li>
+	</ol>
+	<footer class="footer2">
+		<a href="https://www.youtube.com/watch?v=YEJT7y-INps" target="_blank" class="link"><img src=" img/logo.png" width="100" alt="Упсс...Гішпанський встид. Але десь, тойво - картинка поділась :)"></a>
+
+	</footer>
+</body>
 </html>
